@@ -72,6 +72,7 @@ FreeBSD 10 Desktop How-to - Tips and Tricks
       </device>
     </deviceinfo>
 
+## Apps
 
 ### Install VirtualBox
 
@@ -84,7 +85,7 @@ FreeBSD 10 Desktop How-to - Tips and Tricks
 
 ### Install Ansible
 
-    cd /usr/ports/sysutils/ansible/
+    cd /usr/ports/sysutils/ansible
     make config install distclean BATCH=yes
 
 ### Vagrant + Ansible
