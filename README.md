@@ -8,6 +8,8 @@ FreeBSD 10 Desktop How-to - Tips and Tricks
 
 - Keyboard layout
 
+**Copy hal policy file**
+
     mkdir -p /usr/local/etc/hal/fdi/policy/10osvendor
     cp /usr/local/share/hal/fdi/policy/10osvendor/10-input-policy.fdi /usr/local/etc/hal/fdi/policy/10osvendor
 
