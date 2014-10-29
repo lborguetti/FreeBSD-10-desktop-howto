@@ -6,7 +6,7 @@ FreeBSD 10 Desktop How-to - Tips and Tricks
 
 ## Xorg
 
-* Keyboard layout
+### Keyboard layout
 
 **Copy hal policy file**
 
@@ -73,21 +73,21 @@ FreeBSD 10 Desktop How-to - Tips and Tricks
     </deviceinfo>
 
 
-* Install VirtualBox
+### Install VirtualBox
 
   https://www.freebsd.org/doc/handbook/virtualization-host-virtualbox.html
 
-* Install Vagrant
+### Install Vagrant
 
     cd /usr/local/sysutils/vagrant
     make config install distclean BATCH=yes
 
-* Install Ansible
+### Install Ansible
 
     cd /usr/ports/sysutils/ansible/
     make config install distclean BATCH=yes
 
-* Vagrant + Ansible
+### Vagrant + Ansible
 
 You need add ***ansible_python_interpreter*** in Vagrantfile to provisioning linux hosts
 
