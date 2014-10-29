@@ -11,8 +11,8 @@ Keyboard layout
     mkdir -p /usr/local/etc/hal/fdi/policy/10osvendor
     cp /usr/local/share/hal/fdi/policy/10osvendor/10-input-policy.fdi /usr/local/etc/hal/fdi/policy/10osvendor
 
-  > Default file
-  >
+***Default file:***
+
     cat /usr/local/share/hal/fdi/policy/10osvendor/10-input-policy.fdi
     <?xml version="1.0" encoding="UTF-8"?>
 
@@ -38,8 +38,7 @@ Keyboard layout
 
     </deviceinfo>
 
-  > Change default file, put your keyboard layout
-  >
+***Change default file, put your keyboard layout***
 
     cat /usr/local/etc/hal/fdi/policy/10osvendor/10-x11-input.fdi
     <?xml version="1.0" encoding="ISO-8859-1"?>
@@ -66,10 +65,6 @@ Keyboard layout
             <merge key="input.xkb.layout" type="string">br</merge>
             <merge key="input.xkb.variant" type="string">abnt2</merge>
           <match key="/org/freedesktop/Hal/devices/computer:system.kernel.name" string="Linux">
-            <merge key="input.x11_driver" type="string">evdev</merge>
-            <merge key="input.xkb.model" type="string">abnt2</merge>
-            <merge key="input.xkb.layout" type="string">br</merge>
-            <merge key="input.xkb.variant" type="string">abnt2</merge>
           </match>
         </match>
       </device>
