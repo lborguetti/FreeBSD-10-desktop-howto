@@ -6,12 +6,12 @@ FreeBSD 10 Desktop How-to - Tips and Tricks
 
 ## Xorg
 
-Keyboard layout
+- Keyboard layout
 
     mkdir -p /usr/local/etc/hal/fdi/policy/10osvendor
     cp /usr/local/share/hal/fdi/policy/10osvendor/10-input-policy.fdi /usr/local/etc/hal/fdi/policy/10osvendor
 
-***Default file:***
+**Default file:**
 
     cat /usr/local/share/hal/fdi/policy/10osvendor/10-input-policy.fdi
     <?xml version="1.0" encoding="UTF-8"?>
@@ -38,7 +38,7 @@ Keyboard layout
 
     </deviceinfo>
 
-***Change default file, put your keyboard layout***
+**Change default file, put your keyboard layout**
 
     cat /usr/local/etc/hal/fdi/policy/10osvendor/10-x11-input.fdi
     <?xml version="1.0" encoding="ISO-8859-1"?>
