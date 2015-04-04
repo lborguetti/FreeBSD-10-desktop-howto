@@ -39,6 +39,15 @@ FreeBSD 10 Desktop How-to - Tips and Tricks
 
     refer: https://forums.freebsd.org/threads/intel-centrino-advanced-n-6235-wifi-driver.35467/
 
+## Sound
+
+### Headphone
+
+Edit ***/boot/device.hints*** and insert
+
+        hint.hdaa.0.nid20.config="as=1 seq=0 device=Speaker"
+        hint.hdaa.0.nid21.config="as=1 seq=15 device=Headphones"
+
 ## Xorg
 
 ### Keyboard layout
