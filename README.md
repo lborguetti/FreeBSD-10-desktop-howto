@@ -66,6 +66,8 @@ Edit ***/boot/device.hints*** and insert
 
   https://www.freebsd.org/doc/handbook/virtualization-host-virtualbox.html
 
+    Note: Enable GUESTADDITIONS (make config)
+
 ### Vagrant + Ansible
 
 You need add ***ansible_python_interpreter*** in Vagrantfile to provisioning linux hosts
